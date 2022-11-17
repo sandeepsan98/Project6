@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    }
+#headsports{
+   height:100vh;
+   background-size: cover;
+   background-position: center;
+   background-image: url(../images/outlinesportu.png);
+ 
+}
+ul{
+    float: right;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+     margin: 20px;
+    padding: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(250, 252, 250);
+    border-radius: 50px;
+    border: solid rgb(240, 237, 237);
+    padding: 3px;
+	
+}
+ul li a:hover{
+    background-color:bisque;
+    color:black;
+
+}
+.content{
+      color:white;
+	font-family:sans serif;
+	font-size:30px;
+	
+}
+.content p{
+	border-style:solid;
+	border-radius:50px;
+	padding-left:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:90px;
+	margin-right:50px;
+	margin-left:50px;
+	background-color:black;
+	color:white;
+	
+}
+.content img{
+	width:900px;
+	height:400px;
+margin-right:19%;
+margin-left:19%;
+padding-top:30px;
+border-radius:90px;	
+
+}
+.logo img{
+width:70px;
+border-radius:50%;
+height:70px;
+border:solid 5px;
+margin-left:20px;
+	
+}
+.para a{
+	font-size:10px;
+	color:white;
+	text-decoration: none;
+    color: white;
+    padding: 3px;
+	margin-left:15px;
+
+	
+}
+#main{
+	border:50px solid transparent;
+	border-top:0px;
+	padding:30px;
+	border-image:url(../images/outlinesportu.png) 60 round;
+	background-color: black;
+	color: azure;
+	height: 850px;
+}
+
+#box1:hover{
+	transform:scale(1.1);
+    border:3px solid rgb(227, 218, 218);
+	
+	
+}
+#box2:hover{
+	transform:scale(1.1);
+	border:3px solid rgb(227, 218, 218);
+}
+#box3:hover{
+	transform:scale(1.1);
+	border:3px solid rgb(227, 218, 218);
+}
+#box4:hover{
+	transform:scale(1.1);
+	border:3px solid rgb(227, 218, 218);
+
+}
+#box5:hover{
+	transform:scale(1.1);
+	border:3px solid rgb(227, 218, 218);
+}
+#box6:hover{
+	transform:scale(1.1);
+	border:3px solid rgb(227, 218, 218);
+}
+#box1{
+	width:390px;
+	height:320px;
+	background-color:rgb(24, 23, 23);
+	margin-top: 30px;
+	transition: 1s ;
+	
+	
+
+}
+
+#box2{
+	width:390px;
+	height: 320px;
+	background-color:rgb(24, 23, 23);
+	margin-top: 30px;
+	transition: 1s ;
+	
+	
+}
+#box3{
+	width:390px;
+	height:320px;
+	background-color:rgb(24, 23, 23);
+	margin-top: 30px;
+	transition: 1s ;		
+	
+}
+#box4{
+	width:390px;
+	height:320px;
+	background-color:rgb(24, 23, 23);
+	margin-top: 30px;
+	transition: 1s ;
+	
+			
+	
+}
+#box5{
+	width:390px;
+	height:320px;
+	background-color:rgb(24, 23, 23);
+	margin-top: 30px;
+	transition: 1s ;		
+	
+}
+#box6{
+	width:390px;
+	height:320px;
+	background-color:rgb(24, 23, 23);
+	margin-top: 30px;
+	transition: 1s ;		
+	
+}
+#mainbox{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+	
+	
+}
+
+.anchor{
+	text-decoration: none;
+    color: rgb(225, 236, 240);
+	font-size: 10px;
+	margin-top: 3px;
+    width: 70px;
+	border-radius: 50px;
+    border: solid rgb(238, 245, 238);
+	padding: 3px;
+	margin-left: 170px;
+}
+.fimgsize{
+	width: 350px;
+	height: 230px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 10px;
+}
+
+h5{
+	display: flex;
+	justify-content: center;
+	color: rgb(232, 232, 235);
+	
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+}
+#footer{
+	border:50px solid transparent;
+	border-top:0px;
+	padding:20px;
+	border-image:url(../images/outlinesportu.png) 60 round;
+	background-color: black;
+	color: azure;
+	height: 300px;
+	
+	
+	
+}
+a.boxlink:link{
+	color: rgb(232, 232, 235);
+	text-decoration: none;
+	display: block;
+   
+}
+
+
+
